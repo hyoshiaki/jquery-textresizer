@@ -310,7 +310,7 @@ Documentation: http://angstrey.com/index.php/projects/jquery-text-resizer-plugin
     };
 
     TextResizerPlugin.prototype.init = function () {
-        var numberOfElements = this.$elements.size(),
+        var numberOfElements = this.$elements.length,
             debugMode = TextResizerPlugin.defaults.debugMode;
 
         if (debugMode) {
